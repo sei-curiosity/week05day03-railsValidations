@@ -113,7 +113,7 @@ end
 ```
 
 * Type `reload!` into the console to update your model validations.
-* Try saving a person with no first or last name and see what error is thrown.
+* Try saving a song with no title and see what error is thrown.
 * Try calling `valid?` on a new person.
 * Walk through the Rails Docs and show that you can add error messages to your validations (e.g.- `too_short: "must have at least %{count} words"`).
 
