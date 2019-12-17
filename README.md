@@ -38,7 +38,7 @@ Let's look at how we might validate some things.
       ```ruby
       class Artist < ActiveRecord::Base
         has_many :songs
-        validates :title, presence: true
+        validates :name, presence: true
       end
       ```
 
