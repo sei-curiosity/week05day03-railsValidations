@@ -125,7 +125,7 @@ Add the following validation to `song.rb`:
 validates :title, :genre, length: { minimum: 3, too_short: "must have at least %{count} words" }
 ```
 (if numeric input is available)
-or add `numericality` to the age field:
+or add `numericality` to the albums field:
 
 ```ruby
 validates :albums, numericality: true
