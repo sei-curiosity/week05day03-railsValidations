@@ -103,7 +103,7 @@ guide](http://guides.rubyonrails.org/active_record_validations.html).
 
 We set our [validations](http://guides.rubyonrails.org/active_record_validations.html) in our app/models/song.rb model.
 
-Let's make sure each person definitely has a first name and a last name before they're saved.
+Let's make sure each song definitely has a title and a genre before they're saved.
 
 ```ruby
 class Song < ActiveRecord::Base
